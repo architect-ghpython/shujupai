@@ -38,7 +38,6 @@ def get():
     file=open('cookie.json',mode='r')
     kuke_='PHPSESSID='+file.read()
     print(kuke_)
-    url="https://www.udparty.com/index.php/detail/uploadvideolistdetails?aid=2052&id=1093"
     url=input("请输入课程网址(不是视频播放页，而是课程主页)")
     headers = {  'refer':'https://www.udparty.com/index.php/detail/uploadvideodetails/?id=2052&title=%E4%BA%92%E8%81%94%E7%BD%91%E5%9C%B0%E5%9B%BE%E5%B0%8F%E5%8C%BA%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%BB%BA%E6%A8%A1%EF%BC%9A%E8%A7%A3%E6%9E%90%E3%80%81%E7%94%9F%E6%88%90%E7%9F%A2%E9%87%8F%E5%A4%9A%E8%BE%B9%E5%BD%A2%E3%80%81%E5%9D%90%E6%A0%87%E8%BD%AC%E6%8D%A2%E7%AD%89%E3%80%90%E8%A7%86%E9%A2%91%E3%80%91',      'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36','cookie':kuke_ }
     r = requests.get(url=url,headers=headers).text
