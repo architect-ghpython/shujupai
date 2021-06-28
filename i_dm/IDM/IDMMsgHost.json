@@ -1,0 +1,7 @@
+{
+    "name"               : "com.tonec.idm",
+    "description"        : "Internet Download Manager extension helper",
+    "type"               : "stdio",
+    "allowed_origins"    : [ "chrome-extension://ngpampappnmepgilojfohadhhmbhlaek/", "chrome-extension://llbjbkhnmlidjebalopleeepgdfgcpec/" ],
+    "path"               : "IDMMsgHost.exe"
+}

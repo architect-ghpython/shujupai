@@ -1,0 +1,7 @@
+{
+    "name"               : "com.tonec.idm",
+    "description"        : "Internet Download Manager extension helper",
+    "type"               : "stdio",
+    "allowed_extensions" : [ "mozilla_cc3@internetdownloadmanager.com" ],
+    "path"               : "IDMMsgHost.exe"
+}
